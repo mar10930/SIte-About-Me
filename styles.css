@@ -40,7 +40,6 @@ li.answer{
     color:black;
     display: list-item;
     font-size: 25px;
-    
 }
 a{
     color: white;
@@ -68,7 +67,35 @@ p.answer{
 }
 div{
     margin:auto;
+    display: grid;
 }
 footer{
     background:black;
+}
+div.LinkedInCard{
+    display:inline-block;
+    margin-left: 350px;
+    width: 450px;
+    box-shadow: 0 4px 8px 0 grey;
+    background: rgb(56, 56, 56);
+}
+
+div.LinkedInContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.GithubCard{
+    display:inline-block;
+    margin-left: 100px;
+    width: 450px;
+    box-shadow: 0 4px 8px 0 grey;
+    background: rgb(56, 56, 56);
+}
+
+div.GithubCointainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
