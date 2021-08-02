@@ -1,14 +1,26 @@
 html{
-    background: rgb(56, 56, 56);
+    background: rgb(27, 27, 27);
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
     margin:0px;
     padding:0px;
 }
-p{
-    font-size:35px;
-    width:50%;
+p.HomeBody{
+    font-size: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 80px;
+    padding-bottom:80px;
+    display: inline-flex;
+    text-align: left;
+}
+p.SkillsBody{
+    font-size: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 80px;
+    text-align: left;
 }
 header.pageTitle{
     font-size: 35px;
@@ -29,17 +41,23 @@ ul.navBar{
     list-style-type: none;
 }
 
-li{
+li.Navigation{
     color:white;
     display:inline-block;
     margin-right:35px;
     height:50px;
     font-size: 30px;
 }
-li.answer{
+
+ul.Body{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+li{
     color:black;
     display: list-item;
     font-size: 25px;
+    
 }
 a{
     color: white;
@@ -49,10 +67,9 @@ a:hover{
     color:black;
 }
 section{
-    padding: 35px;
+    padding: 50px;
     font-size: 35px;
-    display:flex;
-    flex-direction: row;
+    display:inline-flexbox;
     background: rgb(56, 56, 56);
 }
 section.qaHeader{
@@ -62,16 +79,30 @@ section.qaHeader{
 h4.question{
     color:rgb(0, 24, 184);
 }
+h4.homeSub{
+    color:rgb(0, 24, 184);
+    margin:-50px;
+    height: 90px;
+    background-color: black;
+    text-align: center;
+    line-height: 85px;
+}
 p.answer{
     font-size: 25px;
 }
 div{
     margin:auto;
-    display: grid;
 }
 footer{
     background:black;
 }
+
+img{
+    margin:auto;
+    display:block;
+    width:100%;
+}
+
 div.LinkedInCard{
     display:inline-block;
     margin-left: 350px;
